@@ -1,0 +1,1 @@
+web: gunicorn ex1_flask_json:app
