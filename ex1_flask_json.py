@@ -1,9 +1,6 @@
-import pickle
 from joblib import dump, load
 from flask import Flask
 from flask import request
-import requests
-import numpy as np
 import pandas as pd
 import time
 import json
