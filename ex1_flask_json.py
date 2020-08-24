@@ -31,6 +31,7 @@ def predict():
     dict_sample = json.loads(json_data)
     df_samples = pd.DataFrame.from_dict(dict_sample, orient="index")
     y_pred = clf_load.predict(df_samples)
+    print('Prediction is', str(y_pred))
     return str(y_pred)
 
 
